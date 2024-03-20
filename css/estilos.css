@@ -1,0 +1,26 @@
+html{font-size: 24px;} /*establecer el tamaño del padre para el rem*/
+
+h1{font-size: 16px;} /*estable tamaño de h1 en unidad absoluta*/
+
+h2{font-size: 1rem;} /*estable tamaño de h2 en unidad relativa*/
+
+h3{font-size: 1.75rem;} /*estable tamaño de h3 en unidad relativa*/
+
+h4{font-size: 1.5rem;} /*estable tamaño de h4 en unidad relativa*/
+
+h5{font-size: 1.25rem;} /*estable tamaño de h5 en unidad relativa*/
+
+h6{font-size: 1.05rem;} /*estable tamaño de h6 en unidad relativa*/
+
+.contenedor{ 
+    width: 70%; /*establece el tamaño de ancho del contenedor en unidad relativa*/
+    height: 400px; /*establece el tamaño de alto del contenedor en unidad absoluta*/
+    background-color: aqua; /*establece el color de fondo del contenedor*/
+    margin: 30px auto; /*establece el margen entre el contenedor y la pantalla con unidad absoluta*/
+}
+
+.hijo{
+    width: 50vw; /*establece el tamaño de ancho del hijo en unidad relativa en relación con la pantalla*/
+    height: 80%; /*establece el tamaño de alto del hijo en unidad relativa en relación con el padre*/
+    background-color: hotpink; /*establece el color de fondo del hijo*/
+}
